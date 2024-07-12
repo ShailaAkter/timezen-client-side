@@ -1,6 +1,6 @@
 import {motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react';
-import { FaBars, FaEnvelope, FaFacebook, FaInstagram, FaPlus, FaMinus} from "react-icons/fa6"
+import { FaBars, FaEnvelope, FaFacebook, FaInstagram} from "react-icons/fa6"
 import { IoClose } from "react-icons/io5"
 import { NavLink } from 'react-router-dom';
 import { useAuth } from "../../../hooks/auth"

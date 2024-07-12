@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base
+{
+  html
+  {
+    font-family: "Nunito Sans", sans-serif;
+  }
+}
+
+.bg-image 
+{
+  background-image: url('/src/assets/images/home-page/about-section/card-1.png');
+}
+
+.bg-image:hover
+{
+  background-image: linear-gradient(to top, rgb(199, 21, 60), rgb(255, 255, 255));
+}
+
+
+.bg-card-1
+{
+  background-image: linear-gradient(to top, rgb(250, 163, 182), rgb(255, 255, 255));
+}
+
+.bg-card-1:hover 
+{
+  background-image: linear-gradient(to top, rgb(219, 1, 48), rgb(255, 255, 255));
+}
+
+.bg-card-2
+{
+  background-image: linear-gradient(to top, #f5e19e, #FFFFFF);
+}
+
+.bg-card-2:hover 
+{
+  background-image: linear-gradient(to top, #a16207, #FFFFFF);
+} 
+
+
+.bg-card-3
+{
+  background-image: linear-gradient(to top, #93d3c9, #FFFFFF);
+}
+
+.bg-card-3:hover 
+{
+  background-image: linear-gradient(to top, #005851, #FFFFFF);
+}
+
+.bg-card-4
+{
+  background-image: linear-gradient(to top, #9c9bc0, #FFFFFF);
+}
+
+.bg-card-4:hover 
+{
+  background-image: linear-gradient(to top, #8a67db, #FFFFFF);
+}
+
+.parallax-container 
+{
+  background-image: url('/src/assets/images/home-page/premium-section/premium-bg.png'); /* Update with your image path */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+@keyframes spin 
+{
+  from
+  {
+    transform: rotate(0deg);
+  }
+  to
+  {
+    transform: rotate(360deg);
+  }
+}
+
+.spin
+{
+  animation: spin 50s linear infinite 
+}
+

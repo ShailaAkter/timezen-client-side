@@ -4,8 +4,7 @@ import { useCart } from "../../hooks/cart";
 import { useAuth } from "../../hooks/auth";
 import { useState, useEffect } from "react";
 import DropIn from "braintree-web-drop-in-react";
-import toast from "react-hot-toast";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import YellowButton from "../../components/buttons/YellowButton";
 
 const Payment = () => 
